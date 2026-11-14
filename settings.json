@@ -1,5 +1,0 @@
-{
-    "npm.enableRunFromFolder": true,
-    "npm.runSilent": true,
-    "npm.scriptExplorerAction": "run"
-}
