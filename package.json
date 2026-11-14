@@ -1,26 +1,23 @@
 {
-  "name": "frontend",
+  "name": "aayuvora-server",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "description": "Aayuvora backend API for Render",
   "type": "module",
+  "main": "index_sarvam_Aayuvora_DoctorVideo_OTP_fixed.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "start": "node index_sarvam_Aayuvora_DoctorVideo_OTP_fixed.js",
+    "check": "node --check index_sarvam_Aayuvora_DoctorVideo_OTP_fixed.js && node --check ocrService_sarvam_Aayuvora_updated.js && node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
-    "lucide-react": "^1.34.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
-  "devDependencies": {
-    "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "@vitejs/plugin-react": "^6.1.0",
-    "oxlint": "^1.79.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.2.2"
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.3.0",
+    "twilio": "^6.1.0",
+    "mongodb": "^6.21.0"
   }
 }
